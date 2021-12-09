@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnInicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Alarma P.M"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="450px"
+                android:layout_height="1px"
+                android:layout_marginLeft="320px"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#BA0909" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Únete a nosotros"
+                android:textAlignment="center"
+                android:textSize="30dp"></TextView>
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120px"
+                android:layout_marginTop="200px"
+                android:layout_marginRight="120px"
+                android:background="@drawable/style_border_edittext"
+                android:hint="Nombre de usuario" />
+
+            <EditText
+                android:id="@+id/etConfirmarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120px"
+                android:layout_marginTop="100px"
+                android:layout_marginRight="120px"
+                android:background="@drawable/style_border_edittext"
+                android:hint="Confirmar nombre de usuario" />
+
+            <Button
+                android:id="@+id/btnUnete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="90dp"
+                android:background="@drawable/boton_redondo"
+                android:padding="15dp"
+                android:text="Unete"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/btnRegistrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Ya tengo una cuenta"
+                android:textAlignment="center"
+                android:textColor="#2C76CD"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Derechos Reservados @Alarma P.M"
+                android:textAlignment="center"
+                android:textColor="#050505"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
