@@ -44,27 +44,29 @@
                 android:textSize="30dp"></TextView>
 
             <EditText
+                android:id="@+id/etUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="120px"
-                android:layout_marginRight="120px"
                 android:layout_marginTop="280px"
+                android:layout_marginRight="120px"
                 android:background="@drawable/style_border_edittext"
                 android:hint="Ingresa usuario / email" />
 
             <Button
+                android:id="@+id/btnInicio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="90dp"
                 android:layout_marginTop="130dp"
                 android:layout_marginRight="90dp"
+                android:background="@drawable/boton_redondo"
                 android:padding="15dp"
                 android:text="Iniciar sesión"
-                android:textColor="#FFF"
-                android:background="@drawable/boton_redondo"/>
+                android:textColor="#FFF" />
 
             <TextView
-                android:id="@+id/btnRegistrate"
+                android:id="@+id/btnYaCuenta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"

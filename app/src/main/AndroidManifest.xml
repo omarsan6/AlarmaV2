@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".crear_alarma"
+            android:exported="true" />
+        <activity
             android:name=".registrar"
             android:exported="true" />
         <activity

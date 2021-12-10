@@ -74,7 +74,7 @@
                 android:textColor="#FFF" />
 
             <TextView
-                android:id="@+id/btnRegistrate"
+                android:id="@+id/btnYaCuenta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
